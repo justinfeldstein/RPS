@@ -4,7 +4,7 @@ let playerScore = 0;
  let computerChoice = "";
  let pCount = document.getElementById('p-count');
  let cCount = document.getElementById('c-count');
- let result = document.getElementById('result');
+ let result = document.getElementById('result').value;
 
 function computerSelect() {
  let choice = Math.floor(Math.random() * 3);
