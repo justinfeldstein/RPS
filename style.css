@@ -1,3 +1,28 @@
 .imag {
-  height: 45px;
+  height: 200px;
+  width: 200px;
+}
+.title {
+  font-size: 4rem;
+}
+.playerScore {
+  float: left;
+}
+.computerScore {
+  float: right;
+}
+.rock {
+  margin-left: 10%;
+    border-radius: 5px;
+}
+.scissor {
+  margin-left: 10%;
+    border-radius: 5px;
+}
+.paper {
+  margin-left: 10%;
+    border-radius: 5px;
+}
+.reload {
+    border-radius: 5px;
 }
