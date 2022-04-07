@@ -4,6 +4,7 @@ let playerScore = 0;
  let computerChoice = "";
  let pCount = document.getElementById('p-count');
  let cCount = document.getElementById('c-count');
+ let result = document.getElementById('result');
 
 function computerSelect() {
  let choice = Math.floor(Math.random() * 3);
@@ -25,11 +26,14 @@ function Dwayne() {
  switch (computerChoice) {
    case "paper":
      computerScore++;
+     result.innerHTML = "Loser";
      break;
    case "rock":
+   result.innerHTML = "Tie";
      break;
    case "scissors":
      playerScore++;
+   result.innerHTML = "Winner";
      break;
  }
  pCount.innerHTML = playerScore;
