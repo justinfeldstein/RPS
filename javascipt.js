@@ -45,14 +45,11 @@ function Konan() {
  switch (computerChoice) {
    case "scissors":
      computerScore++;
-   result.innerHTML = "Loser :(";
      break;
    case "paper":
-   result.innerHTML = "Tie";
      break;
    case "rock":
      playerScore++;
-   result.innerHTML = "Winner!!";
      break;
  }
  pCount.innerHTML = playerScore;
@@ -64,14 +61,11 @@ function Scizor() {
  switch (computerChoice) {
    case "rock":
      computerScore++;
-   result.innerHTML = "Loser :(";
      break;
    case "scissors":
-   result.innerHTML = "Tie";
      break;
    case "paper":
      playerScore++;
-   result.innerHTML = "Winner!!";
      break;
  }
  pCount.innerHTML = playerScore;
