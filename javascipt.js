@@ -25,15 +25,15 @@ function Dwayne() {
  computerSelect();
  switch (computerChoice) {
    case "paper":
+   result.innerHTML = "Loser :(";
      computerScore++;
-     result.innerHTML = "Loser :(";
      break;
    case "rock":
    result.innerHTML = "Tie";
      break;
    case "scissors":
-     playerScore++;
    result.innerHTML = "Winner!!";
+     playerScore++;
      break;
  }
  pCount.innerHTML = playerScore;
