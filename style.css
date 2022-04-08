@@ -13,16 +13,33 @@
 }
 .rock {
   margin-left: 10%;
-    border-radius: 5px;
+  border-radius: 5px;
+  background-color: White;
+  border-color: white;
 }
 .scissor {
   margin-left: 10%;
-    border-radius: 5px;
+  border-radius: 5px;
+  background-color: White;
+  border-color: white;
 }
 .paper {
   margin-left: 10%;
-    border-radius: 5px;
+  border-radius: 5px;
+  background-color: White;
+  border-color: white;
 }
 .reload {
     border-radius: 5px;
+    background-color: red;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+.game {
+  background-color: blue;
+}
+HTML {
+  background-color: blue;
 }
